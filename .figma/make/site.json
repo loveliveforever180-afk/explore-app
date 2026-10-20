@@ -1,0 +1,10 @@
+{
+  "description": "Discover personal interests through daily exploration tasks in a soothing, user-friendly app designed for those seeking direction in life.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
