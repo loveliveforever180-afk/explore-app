@@ -293,23 +293,29 @@ const PET_ASSETS: Record<
 > = {
   兔子: {
     '#ead1a6': {
-      幼年期: '/assets/rabbit.png',
-      成長期: '/assets/rabbit.png',
-      成熟期: '/assets/rabbit.png',
+      
+幼年期: `${import.meta.env.BASE_URL}assets/rabbit.png`,
+成長期: `${import.meta.env.BASE_URL}assets/rabbit.png`,
+成熟期: `${import.meta.env.BASE_URL}assets/rabbit.png`,
+
     },
   },
   貓咪: {
     '#b7a79d': {
-      幼年期: '/assets/cat.png',
-      成長期: '/assets/cat.png',
-      成熟期: '/assets/cat.png',
+      
+幼年期: `${import.meta.env.BASE_URL}assets/cat.png`,
+成長期: `${import.meta.env.BASE_URL}assets/cat.png`,
+成熟期: `${import.meta.env.BASE_URL}assets/cat.png`,
+
     },
   },
   小熊: {
     '#b9855e': {
-      幼年期: '/assets/bear.png',
-      成長期: '/assets/bear.png',
-      成熟期: '/assets/bear.png',
+      
+幼年期: `${import.meta.env.BASE_URL}assets/bear.png`,
+成長期: `${import.meta.env.BASE_URL}assets/bear.png`,
+成熟期: `${import.meta.env.BASE_URL}assets/bear.png`,
+
     },
   },
 }
